@@ -1,0 +1,31 @@
+
+input:focus{
+    color: indianred;
+    height: 100px;
+}
+li:nth-child(2n){
+    color: rgba(33, 93, 154, 0.467);
+
+}
+a:visited{
+    color: rgb(104, 183, 64);
+}
+h1::before {
+     counter-increment: section;
+     content: "ol " ;
+}
+
+
+#a{
+    background-color: rgb(158, 32, 32);
+    
+}
+div{
+    
+    height: 100px;
+    width: 100px;
+}
+#c{
+    background-color: rgb(27, 93, 39);
+    position: absolute;
+}
